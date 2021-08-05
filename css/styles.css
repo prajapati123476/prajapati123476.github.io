@@ -112,9 +112,29 @@ ul li a:hover {
     font-size: 1.5rem;
 
 }
+/*get in touch icon*/
+
+    .get-in-touch {
+        display: flex;
+        margin: 20px 10px 250px 10px;
+
+    }
+    .contact-heading {
+        width: 100% !important;
+        height: 60px;
+        color: white;
+        margin-left: 100px;
+    }
+    .icon {
+        color: white;
+    }
+
+    .box-1 {
+        margin: 100px 0px 50px 0px;
+    }
 
 
-/*Contact Us*/
+/*Contact Us send message form*/
 .contact-form {
     width: 85%;
     max-width: 600px;
