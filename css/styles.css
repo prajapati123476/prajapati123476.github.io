@@ -201,7 +201,14 @@ ul li a:hover {
     
 }
 
+/*resume button style*/
 
-
+.resume {
+    color: white;
+    padding: 2px;
+    border: 1px solid white;
+    background-color: rgb(116, 110, 110);
+    text-decoration: none;
+}
 
 
