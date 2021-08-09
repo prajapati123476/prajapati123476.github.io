@@ -16,6 +16,7 @@
     width: 100%;
     background-size: cover;
     background-position: center;
+    
 }
 ul {
     float: right;
@@ -29,6 +30,7 @@ ul li {
     
 }
 ul li a {
+    border: 2px solid white;
     text-decoration: none;
     color: white;
     padding: 5px 20px;
@@ -40,12 +42,17 @@ ul li a:hover {
     transition: 0.5s ease;
 }
 .title {
+    width: 40%;
+    height: 30%;
+    border: 2px solid rgb(175, 169, 80);
+    background-color: rgb(104, 104, 99);
+    padding: 50px;
     position: relative;
     color: white;
     font-size: 20px;
    /* padding: 250px; */
-   top: 50%;
-   left: 50%;
+   top: 40%;
+   left: 30%;
    margin-left: 10%;
    transform: translate(-50%, -50%);
 }
@@ -210,5 +217,17 @@ ul li a:hover {
     background-color: rgb(116, 110, 110);
     text-decoration: none;
 }
+.resume:hover{
+    color: yellow
+}
 
-
+/*style of get in touch tag*/
+.get-a {
+    border: 2px solid rgb(175, 169, 80);
+    padding: 6px;
+    color: white;
+    text-decoration: none;
+}
+.get-a:hover {
+    color: yellow;
+}
