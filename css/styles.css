@@ -231,3 +231,16 @@ ul li a:hover {
 .get-a:hover {
     color: yellow;
 }
+
+/* social media icon*/
+.contact-icon {
+    display: flex;
+    margin: -100px 50px 0px 500px;
+     width: 50%;
+    height: 10%;
+
+}
+.aaa {
+    margin: 0px 50px 60px 180px;
+    align-content: center;
+}
