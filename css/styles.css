@@ -3,6 +3,7 @@
 * {
     margin: 0px, 0px, 0px, 0px;
     padding: 0px, 0px, 0px, 0px;
+    color: rgb(233, 198, 198) !important;
     
 }
 #head {
@@ -246,4 +247,12 @@ ul li a:hover {
 .aaa {
     margin: 0px 50px 60px 180px;
     align-content: center;
+}
+
+/*about-heading*/
+.about-heading {
+    width: 100%;
+}
+.about-heading h1 {
+    width: 180px;
 }
