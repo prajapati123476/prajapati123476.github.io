@@ -1,8 +1,8 @@
 /* head Section style*/
 
 * {
-    margin: 0, 0, 0;
-    padding: 0, 0, 0;
+    margin: 0px, 0px, 0px, 0px;
+    padding: 0px, 0px, 0px, 0px;
     
 }
 #head {
@@ -19,6 +19,7 @@
     
 }
 ul {
+    display: flex;
     float: right;
     margin-top: 25px;
     
@@ -104,6 +105,7 @@ ul li a:hover {
     width: 50px;
     height: 50px;
 }
+
 
 
   /*Down side about */
@@ -237,7 +239,7 @@ ul li a:hover {
 .contact-icon {
     display: flex;
     margin: -100px 50px 0px 500px;
-     width: 50%;
+    width: 50%;
     height: 10%;
 
 }
