@@ -239,15 +239,18 @@ ul li a:hover {
 /* social media icon*/
 .contact-icon {
     display: flex;
-    margin: -100px 50px 0px 500px;
-    width: 50%;
-    height: 10%;
+    background-color: black;
+    width: 100%;
+    height: 150px;
+    padding: 30px;
+    justify-content: center;
+   
+}
+.contact-icon .flex-item {
+    margin: 0px 40px 0px 40px;
+    
+}
 
-}
-.aaa {
-    margin: 0px 50px 60px 180px;
-    align-content: center;
-}
 
 /*about-heading*/
 .about-heading {
