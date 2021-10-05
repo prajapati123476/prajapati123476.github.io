@@ -10,7 +10,7 @@
 #head {
     background: url('../images/bgHTML.jpg') ;   
     padding: 2rem 2rem 2rem 2rem;
-    position: relative;
+    /* position: relative; */
     /* background: radial-gradient(circle at 100%, #333, #333 50%, #eee 75%, #333 75%); */
     background-attachment: fixed;
     
@@ -22,7 +22,7 @@
 
     flex-wrap: wrap;
     justify-content: space-evenly; 
-    position: fixed;
+    /* position: fixed; */
 }
 
 
@@ -101,6 +101,7 @@ ul li a:hover {
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
+    /* background-color: aqua; */
 }
 button {
     padding: 0.8rem;
@@ -143,10 +144,18 @@ button {
     border-radius: 20%;
     padding: 10px;
 }
+#projects {
+    background: linear-gradient(to bottom, #33c7b3, #113833);
+
+}
+
+
 
 /* Skills logo size*/
 #skills {
     padding: 10px;
+    background: linear-gradient(to bottom, #33c7b3, #113833);
+
 }
 
 .skill-row {
@@ -168,6 +177,8 @@ button {
   #about {
     width: 100%;
     padding: 10px;
+    background: linear-gradient(to bottom, #33c7b3, #113833);
+
   }
   .about-me-sec {
       width: 100%;
@@ -214,6 +225,8 @@ button {
 /*contactUs---address--*/
 #contactUs {
     padding: 10px;
+    background: linear-gradient(to bottom, #33c7b3, #113833);
+
 }
     .my-address {
         display: flex;
