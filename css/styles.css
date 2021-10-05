@@ -1,83 +1,124 @@
 /* head Section style*/
 
 * {
-    margin: 0px, 0px, 0px, 0px;
-    padding: 0px, 0px, 0px, 0px;
-    color: rgb(233, 198, 198) !important;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* background-color: #161815; */
+    color: #fff !important;
 }
 #head {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
+    background: url('../images/bgHTML.jpg') ;   
+    padding: 2rem 2rem 2rem 2rem;
+    position: relative;
+    /* background: radial-gradient(circle at 100%, #333, #333 50%, #eee 75%, #333 75%); */
+    background-attachment: fixed;
+    
 }
-.main {
-    display: flex;
-    flex-wrap: wrap;
-    background-image: url(OIP.jpg);
-    height: 100vh;
+
+.nav-bar {
     width: 100%;
-    background-size: cover;
-    background-position: center;
-    
-}
-ul {
     display: flex;
-    float: right;
-    margin-top: 25px;
-    
+
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+    position: fixed;
 }
+
+
 ul li {
-    display: inline-block;
-    margin: 20px;
+    display: inline-block; 
     padding: 5px 20px;
     
 }
 ul li a {
-    border: 2px solid white;
+    border: 2px solid black;
+    /* margin-bottom: 10px; */
     text-decoration: none;
-    color: white;
     padding: 5px 20px;
     font-weight: bold;
 }
 ul li a:hover {
-    background-color: darkblue;
+    /* background-color: rgb(139, 139, 155); */
     color: white;
     transition: 0.5s ease;
 }
 .title {
-    width: 40%;
-    height: 30%;
-    border: 2px solid rgb(175, 169, 80);
-    background-color: rgb(104, 104, 99);
-    padding: 50px;
-    position: absolute;
-    color: white;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid rgb(12, 12, 11); */
+    color: rgb(240, 220, 220);
     font-size: 20px;
-   /* padding: 250px; */
-   top: 40%;
-   left: 30%;
-   margin-left: 10%;
-   transform: translate(-50%, -50%);
+    padding: 2rem;
 }
-.title h1 {
-    font-size: 50px;
+.para {
+    /* border: 2px solid rgb(175, 169, 80); */
+    padding: 10rem;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+}
+.para strong {
+    /* border: 2px solid rgb(206, 38, 94); */
+    background-color:  rgba(13, 34, 29,0.8);
+    /* padding: 1rem; */
+}
+.para span { 
+    background-color: rgba(13, 34, 29,0.8);
+    /* padding: 1rem; */
+    
+}
+.btn {
+    padding: 2rem;
+}
+
+/*style of get in touch tag*/
+.get-a {
+    border: 2px solid rgb(175, 169, 80);
+    border-radius: 10px;
+    background-color: rgb(13, 34, 29);
+    padding: 0.3rem;
+    margin: 10px;
+    text-decoration: none;
+}
+.get-a:hover {
+    color: yellow;
 }
 
 
 
+/* #bgcol {
+    background-color: rgba(163, 209, 38, 0.5);
+} */
 
 /*Project css styles*/
+.prjt {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    padding: 0.8rem;
+    border-radius: 20rem;
+}
+
 
 .box {
     width: 500px;
     margin: 70px;
-    position: relative;
+    position:relative;
     overflow: hidden;
+    text-align: center;
 }
 .box img {
     
     width: 100%;
-    height: auto;
+
 }
 .img__content {
     color: #fff;
@@ -95,63 +136,106 @@ ul li a:hover {
     top: 0;
 
 }
+
 .project_link {
-    color: #fff;
+    color: black !important;
     text-decoration: none;
     border-radius: 20%;
     padding: 10px;
 }
 
 /* Skills logo size*/
+#skills {
+    padding: 10px;
+}
+
+.skill-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0rem 2rem 0rem 2rem;
+}
+.skills-div {
+    padding: 1rem;
+}
 .logo__img {
     width: 50px;
-    height: 50px;
 }
 
 
 
-  /*Down side about */
-.about__img {
-    width: 500px;
-    height: 400px;
+  /*Down side about me section */
+  #about {
+    width: 100%;
+    padding: 10px;
+  }
+  .about-me-sec {
+      width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+
+  }
+  .about__img {
+    width:50%;
     padding: 2rem;
-    border-radius: 50%;
     
 }
+.about__img img {
+    width: 80%;
+}
 .aboutimg__content {
-    padding: 5rem;
-    margin: 10px 50px 20px 300px;
+    width: 50%;
+    padding: 5rem 5rem 5rem 5rem;
     font-size: 1.5rem;
 
 }
-/*get in touch icon*/
 
-    .get-in-touch {
+@media (max-width:800px) {
+    .about-me-sec {
+        width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: space-evenly;
+  
+    }
+    .aboutimg__content {
+        width: 100%;
+    }    
+    
+  .about__img {
+    width:100%;
+    padding: 2rem;
+    }
+}
+
+/*contactUs---address--*/
+#contactUs {
+    padding: 10px;
+}
+    .my-address {
         display: flex;
         flex-wrap: wrap;
-        margin: 20px 10px 250px 10px;
+        justify-content: space-evenly;
+        padding: 2rem;
+        /* background-color: burlywood; */
 
     }
-    .contact-heading {
-        display: flex;
-        flex-wrap: wrap;
-        width: 100% !important;
-        height: 60px;
-        color: white;
-        margin-left: 100px;
+    .a1 {
+        padding: 1rem;
     }
     .icon {
         color: white;
     }
 
-    .box-1 {
-        margin: 100px 0px 50px 0px;
-    }
 
 /*resume button style*/
 
 .resume {
     color: white;
+    /* margin-top: 10px; */
     padding: 2px;
     border: 1px solid white;
     background-color: rgb(116, 110, 110);
@@ -161,36 +245,30 @@ ul li a:hover {
     color: yellow
 }
 
-/*style of get in touch tag*/
-.get-a {
-    border: 2px solid rgb(175, 169, 80);
-    padding: 6px;
-    color: white;
-    text-decoration: none;
-}
-.get-a:hover {
-    color: yellow;
-}
+
+
 
 /* social media icon*/
 .contact-icon {
     display: flex;
-    background-color: black;
+    flex-wrap: wrap;
+    background-color: rgb(22, 18, 18);
     width: 100%;
-    height: 150px;
     padding: 30px;
     justify-content: center;
    
 }
 .contact-icon .flex-item {
-    margin: 0px 40px 0px 40px;
+    margin: 0rem 4rem 0rem 4rem;
     
 }
 
-/*about-heading*/
-.about-heading {
-    width: 100%;
+.title-heading {
+    padding: 3rem;
+    text-align: center;
+    font-family: sans-serif;
+    font-style:oblique;    
+
+
 }
-.about-heading h1 {
-    width: 180px;
-}
+
