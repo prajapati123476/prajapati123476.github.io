@@ -145,7 +145,10 @@ button {
     padding: 10px;
 }
 #projects {
-    background: linear-gradient(to bottom, #33c7b3, #113833);
+    /* background: linear-gradient(to bottom, #33c7b3, #113833); */
+    background: linear-gradient(217deg, #33c7b3, #113833 70.71%), 
+    linear-gradient(127deg, #33c7b3, #113833 70.71%),         
+    linear-gradient(336deg, #33c7b3, #113833 70.71%);
 
 }
 
